@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <style>
+        body {
+            background-color: #B0D9B1;;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registrasi Kendaraan Anda</h1>
+    <form action="utsform.html">
+        <label for="status">Status :</label>
+        <input type="radio" name="mahasiswa" value="mahasiswa">Mahasiswa
+        <input type="radio" name="dosen" value="dosen">Dosen
+        <br />
+        <br />
+        <label for="nim/nidn">NIM/NIDN :</label>
+        <input type="text" id="nim/nidn" name="nim/nidn">
+        <br />
+        <br />
+        <label for="namalengkap">Nama Lengkap :</label>
+        <input type="text" id="namalengkap" name="namalengkap">
+        <br />
+        <br />
+        <label for="prodi">Prodi :</label>
+        <select name="prodi" id="prodi">
+            <option value="teknik_informatika">Teknik Informatika</option>
+            <option value="sistem_operasi">Sistem Operasi</option>
+            <option value="bisnis_digital">Bisnis Digital</option>
+        </select>
+        <br />
+        <br />
+        <label for="jenis_kendaraan">Jenis Kendaraan :</label>
+        <input type="radio" name="motor" value="motor">Motor
+        <input type="radio" name="mobil" value="mobil">Mobil
+        <br />
+        <br />
+        <label for="nopol">NoPol :</label>
+        <input type="text" id="nopol" name="nopol">
+        <br />
+        <br />
+        <label for="merk">Merk :</label>
+        <input type="text" id="merk" name="merk">
+        <br />
+        <br />
+        <label for="upload_stnk">Upload STNK :</label>
+        <input type="text" id="upload_stnk" name="upload_stnk">
+        <br />
+        <br />
+        <input type="button" value="Browse">
+        <input type="button" value="Daftar">
+    </form>
+</body>
+</html>
